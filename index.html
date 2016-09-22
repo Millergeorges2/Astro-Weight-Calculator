@@ -1,0 +1,42 @@
+<DOCTYPE html>
+<html>
+	<head>
+	<title>Astro Weight Calculator</title>
+	</head>
+	<body>
+		<span id="myTitle"></span>
+
+<!-- Input box for starting weight -->
+			<form action="" id="theForm" onsubmit="">
+			<label>Your Weight</label>
+			<input type="text" id="weight" name="weight" placeholder="Enter Weight"/>
+
+<!-- Planet selecter box with weight as value -->
+<!-- planet and values now generated from array in javascript -->
+			<label>Select a planet</label>
+				<select id="planet"></select>
+		      <!-- <option value="27.9">The Sun</option>
+		      <option value="0.377">Mercury</option>
+		      <option value="0.9032">Venus</option>
+		      <option value="1">Earth</option>
+		      <option value="0.1655">Moon</option>
+		      <option value="0.3895">Mars</option>
+		      <option value="2.640">Jupiter</option>
+		      <option value="1.139">Saturn</option>
+		      <option value="0.917">Uranus</option>
+		      <option value="1.148">Neptune</option>
+		      <option value="0.06">Pluto</option> -->
+		      
+<!-- Calculate button -->
+
+			<button type="button" onClick="Calculate()" id="button">Calculate</button><br>
+
+<!-- Display box to show results of your weight  -->
+
+			<p id="result"></p>
+			<script src="index.js"></script>
+			</form>
+		</body>
+
+</html>
+
