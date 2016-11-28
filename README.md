@@ -1,1 +1,1 @@
-# Astro-Weight-Calculator
+First project creating a Astro Weight Calculator using HTML to create the backbone of the code and Javascript to add functionality. Looking back it was a good excercise to learn some Javascript basics that I still use to this day.
